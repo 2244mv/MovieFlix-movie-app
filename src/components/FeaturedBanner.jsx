@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "../styles/FeaturedBanner.css";
 
 import Banner1 from "../assets/banner1.jpg";
 import Banner2 from "../assets/banner2.jpg";

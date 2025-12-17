@@ -12,7 +12,7 @@ const FeaturedBanner = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % banners.length);
-    }, 4000); // change slide every 4s
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
